@@ -1,4 +1,4 @@
-package com.gamesys.collection.comparable;
+package com.gamesys.collection.sorting;
 
 import com.gamesys.collection.entity.*;
 

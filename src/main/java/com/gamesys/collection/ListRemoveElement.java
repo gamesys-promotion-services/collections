@@ -5,16 +5,19 @@ import java.util.*;
 public class ListRemoveElement {
 
     public static void main(String[] args) {
-        List<String> listOfString = Arrays.asList("Phone allowance, ",
-                "Medicine, ", "WFH Allowance, ", "Additional Data");
-        String beerAllowance = "Beer Allowance, ";
+        List<String> listOfString = new ArrayList<>();
+        listOfString.add("Phone allowance, ");
+        listOfString.add("Medicine, ");
+        listOfString.add("WFH Allowance, ");
+        listOfString.add("Additional Data");
+
         System.out.print("Orig List: ");
         for (String allowance: listOfString) {
             System.out.print(allowance);
         }
         /**
          * Exercise!
-         * Remove the Medicine and replace it with Beer allowance
+         * Remove the Medicine
          */
 
         System.out.println();

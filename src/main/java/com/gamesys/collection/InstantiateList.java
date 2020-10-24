@@ -1,5 +1,7 @@
 package com.gamesys.collection;
 
+import com.gamesys.collection.entity.*;
+
 import java.util.*;
 
 public class InstantiateList {
